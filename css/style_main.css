@@ -1,0 +1,522 @@
+/* ------                GLOBAL setttings              ----- */
+:root {
+	--navbar-background-color: #E0E0E0;
+	--navbar-text-color: #6e6e6e;
+	--navlink-hower-text-color: #000000;
+
+	--welcome-text-color : #DCE0D9;
+	--redking-theme-red-color : #FF312E;
+
+	/* Lightgray backgroundcolor */
+	/*--lightgray-background-colorcontent: #8E8B84;*/
+	--lightgray-background-colorcontent: #B0AEA7;
+	--lightdark-textcolor-againstlightgray: #241F1C;
+
+	/* Darkgray backgroundcolor */
+	--darkgray-background-colorcontent: #423E37;
+	--darkgray-textcolor-againstdarkgrey: #C8BEBD;
+
+	--yellow-highlight-text: #E3B23C;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	/*
+	font-family: 'Kurale', serif;
+	*/
+	font-family: 'Roboto', sans-serif;
+}
+
+.stripe-red {
+	color: var(--redking-theme-red-color);
+}
+
+/* Star Stable link */
+a {
+	color: #ca31a7;
+}
+
+a:hover {
+	color: #cc68b4;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 6.5rem;
+
+	text-align: center;
+
+	width: 80%;
+	margin: auto;
+
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+h2 {
+	padding-top: 10px;
+
+	font-weight: 500;
+	font-size: 4.5rem;
+
+	text-align: center;
+	letter-spacing: 3px;
+
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+table {
+	/*font-weight: 500;*/
+	margin-left: auto;
+	margin-right: auto;
+
+	text-align: center;
+}
+
+table th {
+	/* Set common color*/
+		background-color: #96858F;
+
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+table td{
+	padding: 5px 30px;
+}
+
+table tbody tr:nth-child(odd){
+	/* Set common color*/
+	background-color: #6D7993;
+}
+
+table tbody tr:nth-child(even){
+	/* Set common color*/
+	background-color: #9099A2;
+}
+
+
+
+/*  ---------------------------- NAVIGERING ---------------------------------   */
+
+
+nav {
+	font-family: 'Kurale', serif;
+	font-weight: 600;
+	padding-top: 5px;
+	background : var(--navbar-background-color);
+	border-radius: 5px;
+
+	display: flex;
+	justify-content: space-around;
+	align-items: baseline;
+	border-bottom: 1px black solid;
+}
+
+/* Middle elements in navbar */
+nav a {
+	color:var(--navbar-text-color);
+	font-size: 1.1rem;
+}
+
+nav a:hover {
+	color: var(--navlink-hower-text-color);
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 0px 10px;
+}
+
+/* Outer elements in navbar */
+nav button {
+	color: var(--navbar-text-color);
+	background-color: var(--navbar-background-color);
+	font-family: 'Kurale', serif;
+	font-weight: 600;
+	font-size: 1.7rem;
+	border-width: 0px;
+	border: none;
+	outline:none;
+	margin-bottom: 10px;
+}
+
+nav button:hover {
+  color: var(--navlink-hower-text-color);
+  cursor: pointer;
+}
+
+nav ul {
+	padding-left: 100px;
+}
+
+
+/*  ---------------------------- HUVUDRUBRIK ---------------------------------   */
+
+header {
+	width: 100%;
+	background-color: var(--lightgray-background-colorcontent);
+	padding-bottom: 15px;
+}
+
+
+/*  ---------------------------- BILDHÄST ---------------------------------   */
+
+#horse-img {
+	background: url(../img/home.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+
+  	width: 100%;
+  	height: 455px;
+}
+
+/*  ---------------------------- VÄLKOMSTTEXT ---------------------------------   */
+
+#container-home {
+	width: 100%;
+	background-color: var(--lightgray-background-colorcontent);
+	padding: 20px 0px;
+}
+
+
+#container-home p {
+	width: 80%;
+	margin: 25px auto;
+	margin-top: 0px;
+
+	max-width: 52ch;
+
+	text-align:left;
+	line-height: 1.8rem;
+	font-weight: 300;
+	font-size: 1.2rem;
+	color: var(--lightdark-textcolor-againstlightgray);
+}
+
+
+/*  ---------------------------- NYHETERNA ---------------------------------   */
+
+#container-nyheter {
+	border-top: 2px black solid;
+	padding-bottom: 40px;
+	background-color: var(--darkgray-background-colorcontent);
+
+	text-align: center;
+	width: 100%;
+}
+
+#container-nyheter h2 {
+	color: #FAF7F7;
+}
+
+
+#container-nyheter #container-nyheter-middle-1 {
+	line-height: 1.8rem;
+	font-size: 1.3rem;
+
+	width: 60%;
+	margin: auto;
+	padding: 5px;
+
+	display: flex;
+
+	padding-bottom: 20px;
+	border-bottom: 1px solid rgba(0,0,0,.4);
+}
+
+/* News eller info logo */
+#container-nyheter #container-nyheter-middle-1 .nyheter-bild {
+	background: url(../img/news.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	flex: 1;
+	/*border: 1px solid green;*/
+}
+
+#container-nyheter #container-nyheter-middle-1 .nyheter-text {
+	line-height: 1.2rem;
+	text-align: left;
+	padding-left: 2rem;
+	padding-top: 1.8rem;
+
+	color: var(--darkgray-textcolor-againstdarkgrey);
+	flex:3;
+	/*border: 1px solid orange;*/
+}
+
+/* Datum */
+#container-nyheter #container-nyheter-middle-1 .nyheter-text h5 {
+	line-height: 1.1rem;
+	font-size: 0.9rem;
+}
+
+/* Rubrik nyhet */
+#container-nyheter #container-nyheter-middle-1 .nyheter-text h3 {
+	margin-top: 1.8rem;
+	margin-bottom: 10px;
+	color: var(--yellow-highlight-text);
+
+	font-weight: 500;
+	font-size: 1.6rem;
+	letter-spacing: 1px;
+
+	/*border: 1px blue solid;*/
+}
+
+/* Innehåll nyhet */
+#container-nyheter #container-nyheter-middle-1 .nyheter-text p {
+	margin-top: 8px;
+
+	/*text-align: left;*/
+	font-size: 1.0rem;
+	font-weight: 300;
+
+	line-height: 1.4rem;
+	letter-spacing: 1px;
+
+	color: #E9E4E3;
+
+	max-width: 55ch;
+	/*border: 1px pink dotted;*/
+}
+
+
+/*  ---------------------------- OUTFIT ---------------------------------   */
+#container-outfit {
+	border-top: 2px black solid;
+	width: 100%;
+	/*height: 1100px;*/
+	background-color: var(--lightgray-background-colorcontent);
+	padding: 20px 0px;
+}
+
+
+#container-outfit h3 {
+	font-weight: 500;
+	font-size: 1.3rem;
+
+	text-align: center;
+	margin-top: -10px;
+	/*border: 1px solid green;*/
+}
+
+#container-box {
+	/* Trial and error */
+	width: 90%;
+	height: 900px;
+	margin: auto;
+	/*padding: 5px;*/
+
+	display: flex;
+	padding-bottom: -500px;
+
+	/*border: 1px solid green;*/
+}
+
+.ryttare-kort {
+	flex:1;
+
+	display: flex;
+	flex-direction: column;
+	/*padding: 10px;*/
+	padding-top: 10px;
+
+	/*border: 3px solid pink;*/
+}
+
+.ryttare-kort .outfit-bild-ryttare {
+	height: 50%;
+
+	margin: 20px;
+
+	background: url(../img/ryttare_small.jpg);
+
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+	border: 2px solid #423E37;
+	border-radius: 5px;
+
+	/* Hacklight red source behind */
+	box-shadow: 0 0 10px 7px #FF312E;
+}
+
+.ryttare-kort .outfit-text-ryttare {
+	height: 50%;
+	/*border: 1px solid mediumpurple;*/
+}
+
+.hast-kort {
+	flex:1;
+
+	display: flex;
+	flex-direction: column;
+	/*padding: 10px;*/
+	padding-top: 10px;
+	/*border: 2px solid yellow;*/
+}
+
+.hast-kort .outfit-bild-hast {
+	height: 50%;
+
+	margin: 20px;
+
+	background: url(../img/hast_small.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+	border: 2px solid #423E37;
+	border-radius: 5px;
+
+	/* Hack red light source behind */
+	box-shadow: 0 0 10px 7px #FF312E;
+
+	/*border: 1px solid lightblue;*/
+}
+
+.hast-kort .outfit-text-hast {
+	height: 50%;
+
+	/*border: 1px solid mediumpurple;*/
+}
+
+#container-box table {
+	/* Take up full wifth of surrounsing container */
+	width: 100%;
+	font-size: 0.9rem;
+
+
+	/*background-color: #919F9A;*/
+	color: var(--lightdark-textcolor-againstlightgray);
+
+	border: none;
+	/*border: 1px solid red;*/
+
+	padding: 15px;
+}
+
+
+/*  ---------------------------- REGLER ---------------------------------   */
+
+
+#container-regler {
+	border-top: 2px black solid;
+	width: 100%;
+	background-color: var(--darkgray-background-colorcontent);
+	/*color: #dde2d5;*/
+	padding-bottom: 20px;
+}
+
+#container-regler h2 {
+	/*padding-top: 20px;*/
+	color: #FAF7F7;
+
+}
+
+#container-regler ul {
+	padding-top:20px;
+	padding-bottom:30px;
+	color: var(--yellow-highlight-text);
+	width: 60%;
+
+	font-weight: 500;
+	font-size: 1.6rem;
+	letter-spacing: 1px;
+
+	margin: auto;
+}
+
+#container-regler ul li {
+	/*font-family: 'Roboto Condensed', sans-serif;*/
+	letter-spacing: 1px;
+	color: var(--darkgray-textcolor-againstdarkgrey);
+	color: #E9E4E3;
+
+	font-size: 1.0rem;
+	font-weight: 300;
+
+	line-height: 1.4rem;
+	letter-spacing: 1px;
+}
+
+#container-regler ul li:nth-child(1){
+	margin-top: 5px;
+}
+
+/*            		MEDLEMSLISTA     		               */
+
+#Medlemslista {
+	border-top: 2px solid #000;
+	/*padding-top: 50px;*/
+
+	background-color: var(--lightgray-background-colorcontent);
+}
+
+#Medlemslista h2 {
+	color: var(--lightdark-textcolor-againstlightgray);
+}
+
+#Medlemslista table {
+	/* Take up full wifth of surrounsing container */
+	width: 50%;
+	font-size: 1.1rem;
+
+	color: var(--lightdark-textcolor-againstlightgray);
+
+	border: none;
+	padding: 15px;
+}
+#Medlemslista p {
+	font-size: 0.9rem;
+	text-align: center;
+	color: var(--lightdark-textcolor-againstlightgray);
+	padding-bottom: 30px;
+}
+
+/*           Social Media          */
+#container-social-media {
+	border-top: 2px solid #000;
+	padding-bottom: 25px;
+	background-color: var(--darkgray-background-colorcontent);
+	text-align: center;
+}
+
+#container-social-media h2 {
+	padding-bottom: 30px;
+	color: #FAF7F7;
+}
+
+#container-social-media .fab {
+	/*padding: 10px;*/
+	margin: 0px 15px;
+	color: var(--darkgray-textcolor-againstdarkgrey);
+	color: #FAF7F7;
+	color: #c9c9c9;
+	background-color: var(--darkgray-background-colorcontent);
+
+	transition: color;
+	transition-duration: 150ms;
+}
+
+#container-social-media .fab:hover {
+	cursor: pointer;
+	color: var(--yellow-highlight-text);
+	color: #6D7993;
+}
