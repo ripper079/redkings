@@ -1,0 +1,76 @@
+:root {
+	--welcome-text-color : #DCE0D9;
+	--redking-theme-red-color : #FF312E;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	/* Center background and scales proportionally  */
+	background: url(../img/01.jpg) no-repeat center center fixed;
+
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+#Welcome {
+	padding-top: 35px;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-align: center;
+	color:var(--welcome-text-color);
+	/* Skugg effekt */
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+#Welcome .stripe-red {
+	color: var(--redking-theme-red-color);
+}
+
+#Welcome h1{
+	margin-top: 20px;
+	font-size: 6rem;
+}
+
+#Welcome h2{
+	font-size: 1.3rem;
+	margin-bottom: 5px;
+}
+
+
+#Welcome hr {
+	width: 550px;
+	border-top: 1px solid #f8f8f8;
+	/* Shadow effect */
+	border-bottom: 2px solid rgba(0,0,0,0.2);
+	margin: auto;
+}
+
+#Welcome button {
+	margin-top: 15px;
+	background-color: var(--navbar-background-color);
+	border-radius: 10px;
+	padding: 10px 20px;
+	font-size: 2.1rem;
+	font-weight: 600;
+
+	/* Text inside button */
+	color: var(--welcome-text-color);
+	background-image: linear-gradient(to bottom right, #FF312E, #992c31);
+
+}
+
+#Welcome button:hover {
+	border: 2px #423E37 solid;
+	cursor: pointer;
+}
+
+.fa-chevron-circle-right {
+	margin-left: 40px
+}
