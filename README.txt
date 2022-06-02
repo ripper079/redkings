@@ -1,0 +1,1 @@
+Modified files to support extension without .html

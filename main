@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jorviks Röda kungar</title>
+  <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<!-- Google Fonts -->
+	<!-- <link href="https://fonts.googleapis.com/css2?family=Kurale&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css2?family=Kurale&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+	<!-- 	FONT AWESOME
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  -->
+  <!-- FONT AWESOME 5.10.1 -->
+  <link rel="stylesheet" type="text/css" href="./resource/fontawesome/fontawesome-free-5.10.1-web/css/all.css">
+	<!-- 	Custom css File	 -->
+	<link rel="stylesheet" type="text/css" href="css/style_main.css">
+</head>
+<body>
+
+  <!--    ******************************  NAVIGERING    ***********************   -->
+	<nav>
+		<a id="logoname" href="landing"><button>Red Kings</button></a>
+		<ul class="navigation_links">
+			<li><a href="#link-hem-intern">Välkommen</a></li>
+      <li><a href="#link-nyheter-intern">Nyhetsnytt</a></li>
+      <li><a href="#link-outfit-intern">Outfit</a></li>
+      <li><a href="#link-regler-intern">Regler</a></li>
+			<li><a href="#link-medlemmar-intern">Medlemmar</a></li>
+      <li><a href="#link-social-media-intern">Social Medier</a></li>
+		</ul>
+		<a id="membership" target="_blank" rel="noopener noreferrer" href="ansoka_medlemskap"><button>Ansök Medlemskap</button></a>
+	</nav>
+
+  <!--    ******************************  HUVUDRUBRIK    ***********************   -->
+  <header>
+    <h1 class="text-shadow-feature"><span class="stripe-red">R</span>e<span class="stripe-red">d</span>K<span class="stripe-red">i</span>n<span class="stripe-red">g</span>s Klubbsida</h1>
+  </header>
+
+  <!--    ******************************  BILDHÄST   ***********************   -->
+  <div id="horse-img"></div>
+
+  <!--    ******************************  VÄLKOMSTTEXT    ***********************   -->
+  <div id="container-home">
+  <a name="link-hem-intern"></a>
+    <h2>VÄLKOMMEN</h2>
+    <p>
+    Hej och Välkommen till Red Kings medlemssida för <a target="_blank" rel="noopener noreferrer" href="https://www.starstable.com/se/">Star Stable</a>. Red Kings är en hyfsat ny klubb där alla är välkommna att ansöka om en plats i klubben (2 veckor prövotid). Det som förenar denna klubb är att vi fullkomligt älskar Star Stable! Detta genom att göra roliga aktiviteter tillsammans, bla dressyr, terräng, hoppning, insläpp och så mycket mera! Denna medlemsklubb lägger stor fokus på på att alla medlemmar känner sig välkommna och rättvisst behandlade. Därför har vi suttit upp ett antal regler vi vill att medlemmarna ska följa.
+    </p>
+    <p>
+      Klubben har givetvis en klubb-outfit i tema färgerna röd, vit och svart. Givetvis är detta ett förutsättning för att vara medlem i Red Kings! När man är ny i klubben har klubbägaren naturligtvis överseende med detta, men målet ska vara att arbeta mot den officiella Red Kings outfiten.
+    </p>
+    <p>
+    Vi vill ju givetvis att klubben växer och de klubbmedlemmar som aktivt arbetar för klubben kommer att bli belönade på olika sätt t.ex att man får högre rank och mer ansvar.
+    </p>
+    <p>
+      Eventuella frågor angående klubben vänligen skicka ett mail till <span>redkings@protonmail.com</span>
+    </p>
+  </div>
+
+
+
+
+  <!--    ******************************  NYHETERNA    ***********************   -->
+
+  <!-- Alla nyheter -->
+  <div id="container-nyheter">
+  <a name="link-nyheter-intern"></a>
+    <h2>NYHETSNYTT</h2>
+
+
+    <!-- Nyhet TOP -->
+    <div id="container-nyheter-middle-1">
+      <div class="nyheter-bild"></div>
+      <div class="nyheter-text">
+        <h5>Fredag</h5>
+        <h5>12 Juni</h5>
+        <h5>2020</h5>
+        <h3>Första klubbmötet</h3>
+        <p>
+          Alla medlemmar är välkomna till vårat första klubbmöte. Utformningen av klubben skall diskuteras.  Alla förslag är välkommna.
+        </p>
+      </div>
+    </div>
+
+
+    <!-- Nyhet MITTEN -->
+    <div id="container-nyheter-middle-1">
+      <div class="nyheter-bild"></div>
+      <div class="nyheter-text">
+        <h5>Måndag</h5>
+        <h5>8 Juli</h5>
+        <h5>2020</h5>
+        <h3>Häststatus</h3>
+        <p>
+          Har sett att många inte har dels hästen och klubboutfiten och vill påpeka att detta är det som krävs för att vara medlem i klubben. Kom ihåg reglerna för att vara medlem i klubben.
+        </p>
+      </div>
+    </div>
+
+
+    <!-- Nyhet BOTTEN-->
+    <div id="container-nyheter-middle-1">
+      <div class="nyheter-bild"></div>
+      <div class="nyheter-text">
+        <h5>Måndag</h5>
+        <h5>1 Juli</h5>
+        <h5>2020</h5>
+        <h3>Hemsida uppe</h3>
+        <p>
+          Hemsidan är numera klar. Allmän information angående klubben. Kanske någon sugen på att utvecka twitter/instagram/facebook/youtube kanaler.
+        </p>
+      </div>
+    </div>
+
+
+  </div>
+
+  <!--    ******************************  OUTFIT    ***********************   -->
+  <div id="container-outfit">
+  <a name="link-outfit-intern"></a>
+  <h2>OUTFIT</h2>
+  <h3>Officiell medlemsklädsel</h3>
+    <div id="container-box">
+      <div class="ryttare-kort">
+        <!-- Ryttare -->
+        <div class="outfit-bild-ryttare"></div>
+        <div class="outfit-text-ryttare">
+          <table border="2">
+        		<!-- <caption></caption> -->
+        			<thead>
+                <tr>
+          				<th>Typ</th>
+          				<th>Namn</th>
+                  <th>Pris</th>
+                  <th>Köpställe</th>
+        			  </tr>
+        			</thead>
+        			<tbody>
+        				<tr>
+          					<td>Hjälm</td>
+          					<td>Dressyr Hatt</td>
+                  	<td>99 (sc)</td>
+                    <td>Silvergladebyn</td>
+        			  </tr>
+        			  <tr>
+                  <td>Topp</td>
+                  <td>Röd Stickad Tröja</td>
+                  <td>109 (sc)</td>
+                  <td>Gallerian</td>
+        			  </tr>
+                <tr>
+                  <td>Byxor</td>
+                  <td>Svarta Stuprörsjeans</td>
+                  <td>75 (sc)</td>
+                  <td>Quick-Shop</td>
+        			  </tr>
+                <tr>
+                  <td>Handskar</td>
+                  <td>Unistria- Hanskar</td>
+                  <td>45 (sc)</td>
+                  <td>Quick-Shop</td>
+                </tr>
+                <tr>
+                  <td>Skor</td>
+                  <td>Vita Ridstövlar</td>
+                  <td>75 (sc)</td>
+                  <td>Gallerian</td>
+                </tr>
+        			</tbody>
+        	</table>
+        </div>
+
+      </div>
+      <div class="hast-kort">
+        <!-- Häst -->
+        <div class="outfit-bild-hast"></div>
+        <div class="outfit-text-hast">
+          <table border="2">
+        		<!-- <caption></caption> -->
+        			<thead>
+        				<tr>
+          				<th>Typ</th>
+          				<th>Namn</th>
+                  <th>Pris</th>
+                  <th>Köpställe</th>
+        			  </tr>
+        			</thead>
+        			<tbody>
+                <tr>
+          			  <td>Huvuddekoration</td>
+          				<td>Valfri Röd</td>
+                  <td>Varierar</td>
+                  <td>Varierar</td>
+        			  </tr>
+        				<tr>
+          			  <td>Träns</td>
+          				<td>Res Stamper Ebenholtsfärgad Träns</td>
+                  <td>55 (sc)</td>
+                  <td>Moorland</td>
+        			  </tr>
+                <tr>
+          			  <td>Sadel</td>
+          				<td>Ebenholtsfärgad Klassisk Hoppsadel</td>
+                  <td>110 (sc)</td>
+                  <td>Moorland</td>
+        			  </tr>
+                <tr>
+          			  <td>Schabrak</td>
+          				<td>Röd Proffsfilt</td>
+                  <td>45 (sc)</td>
+                  <td>Quick-Shop</td>
+        			  </tr>
+                <tr>
+          			  <td>Svansdekoration</td>
+          				<td>Valfri Röd</td>
+                  <td>Varierar</td>
+                  <td>Varierar</td>
+        			  </tr>
+                <tr>
+          			  <td>Benlindor</td>
+          				<td>Valfri röda</td>
+                  <td>Varierar</td>
+                  <td>Varierar</td>
+        			  </tr>
+                <tr>
+          			  <td>Hästsko</td>
+          				<td>Valfri</td>
+                  <td>Varierar</td>
+                  <td>Varierar</td>
+        			  </tr>
+        			</tbody>
+        	</table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!--    ******************************  REGLER    ***********************   -->
+  <div id="container-regler">
+    <a name="link-regler-intern"></a>
+    <h2>REGLER</h2>
+    <ul>Uppförande
+      <li>Var snäll mot alla, och lyssna på klubbägaren och klubbledarna!</li>
+      <li>NOLL tolerans mot diskriminering</li>
+      <li>Vårda ditt språk, för det kan finnas yngre i klubben</li>
+      <li>Konstruktiva förslag för att förbättra klubben</li>
+  	</ul>
+    <ul>Spel
+      <li>Skaffa klubboutfiten snarast</li>
+      <li>När klubbägaren inte är inne, så får klubbledarna ta över rollen</li>
+      <li>Medverka vid klubbmöten (detta sker 1 gång i veckan)</li>
+      <li>Hästen ska helst vara i level 15</li>
+  		<li>Levelgränsen är 12, men undantag kan ske</li>
+      <li>Håll hästen på bra humör vid event osv</li>
+      <!-- <li>Klubben byter klubbhäst ibland</li> -->
+      <li>Klubbägaren har valt att inte ha ett forum på hemsidan, utan att vi tar det i SSO</li>
+      <li>Försök vara inne minst 3 gånger per vecka</li>
+      <li>Ha KUL</li>
+    </ul>
+  </div>
+
+
+  <!--    ******************************  MEDLEMMAR    ***********************   -->
+
+<a name="link-medlemmar-intern"></a>
+<div id="Medlemslista">
+  <h2>MEDLEMSLISTA</h2>
+  <table border="2">
+			<thead>
+				<tr>
+  				<th>Namn</th>
+  				<th>Titel</th>
+          <th>Level</th>
+			  </tr>
+			</thead>
+			<tbody>
+				<tr>
+  			  <td>Daisy Minidrake</td>
+  				<td>Klubbägare</td>
+          <td>17</td>
+			  </tr>
+			  <tr>
+					<td>Linea Northpark</td>
+					<td>Klubbledare</td>
+          <td>10</td>
+			  </tr>
+        <tr>
+					<td>Sara Leopardpoulos</td>
+					<td>Ridlärare</td>
+          <td>13</td>
+			  </tr>
+        <tr>
+				 	<td>Elise Ashsky</td>
+				 	<td>Medlem</td>
+          <td>5</td>
+			  </tr>
+        <tr>
+				 	<td>Penelope Westwall</td>
+				 	<td>Medlem</td>
+          <td>7</td>
+			  </tr>
+        <tr>
+				 	<td>Fiona Bitterport</td>
+				 	<td>Medlem</td>
+          <td>4</td>
+			  </tr>
+        <tr>
+				 	<td>Alma Giantway</td>
+				 	<td>Medlem</td>
+          <td>4</td>
+			  </tr>
+			</tbody>
+	</table>
+  <p>
+    För närvarande är det möjligt att ansöka om medlemsskap
+  </p>
+</div>
+<!-- Social Media  -->
+<footer>
+  <a name="link-social-media-intern"></a>
+  <div id="container-social-media">
+  <h2>SOCIALA MEDIER</h2>
+    <a target="_blank" rel="noopener noreferrer" href="https://discord.gg/DYfpFQW"><i class="fab fa-discord fa-3x"></i></a>
+    <i class="fab fa-twitter-square fa-3x"></i>
+    <i class="fab fa-linkedin fa-3x"></i>
+    <i class="fab fa-facebook-square fa-3x"></i>
+    <i class="fab fa-youtube fa-3x"></i>
+  </div>
+</footer>
+</body>
+</html>

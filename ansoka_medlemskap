@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ansöka Medlemskap - Red Kings</title>
+  <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<!-- Google Fonts -->
+	<!-- <link href="https://fonts.googleapis.com/css2?family=Kurale&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css2?family=Kurale&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <!-- FONT AWESOME 5.10.1 -->
+  <link rel="stylesheet" type="text/css" href="./resource/fontawesome/fontawesome-free-5.10.1-web/css/all.css">
+	<!-- 	Custom css File	 -->
+	<link rel="stylesheet" type="text/css" href="css/style_medlemskap.css">
+</head>
+<body>
+
+  <h1>Medlemskap till Red Kings</h1>
+  <div class="container-form">
+			<h2>Ansökningsformulär</h2>
+
+			<form class="redking-form" action="MAILTO:redkings@protonmail.com?subject=Ansökan%20till%20Red%20Kings" method="post" enctype="text/plain">
+					<fieldset>
+						<legend>Användar Information</legend>
+							<div class="form-group">
+								<label>Användarnamn:<input type="text" name="form-user_name" placeholder="Star Stable kontonamn" maxlength="50" required></label>
+							</div>
+              <div class="form-group">
+								<label>Level:<input type="text" name="form-user_level" placeholder="Level Nivå" maxlength="2" required></label>
+							</div>
+              <div class="form-group">
+								<label>Erfarenhet:<input type="text" name="form-user_exper" placeholder="Hur många år har du spelat" maxlength="2" required></label>
+							</div>
+              <div class="form-group">
+								<label>Ålder:<input type="text" name="form-age" placeholder="Du måste vara över 5 år" maxlength="2" required></label>
+							</div>
+              <div class="form-group">
+								<label>Email:<input type="email" name="form-email" placeholder="Din mejl address" maxlength="200" required></label>
+							</div>
+					</fieldset>
+
+					<br>
+
+					<em>VARFÖR vill du vara med i Red Kings?</em><br>
+						<div class="form-group">
+							<textarea name="form-feedback_varfor" maxlength="200" placeholder="Motivera. Max 200 tecken, smicker är OK :D" rows="5" cols="50" required></textarea>
+						</div>
+
+
+					<em>och...vad vill du bidra med till klubben?</em>
+						<div class="form-group">
+							<textarea name="form-feedback_improve" maxlength="200" placeholder="Gärna något unikt. Max 200 tecken" rows="5" cols="50" required></textarea>
+						</div>
+
+					<!-- End Feedback -->
+				<input class="button" type="submit" value="SKICKA ANSÖKAN">
+			</form>
+		</div>
+    <p>Går även skicka manuellt till <span id="email-owner">redkings@protonmail.com</span></p>
+</body>
+</html>
